@@ -19,6 +19,7 @@ https://cmac.tv/
 _Features_
 
 - suggest Netflix playlists in the same way netflix suggests genres
+- Search bar (limited to videos on the CmacTV account)
 - The red tones in the Netflix design are replaced with blue to match CMAC's color scheme
 - Thumbnail rows like netflix
 - Clicking on a thumbnail will bring up a hero banner of the video that loops the first 10 seconds, overlaid with:
@@ -28,7 +29,6 @@ _Features_
 - start the video from the beginning if the play button or large thumbnail was clicked
 - auto-queue the next video if the video was part of a playlist or...
 	- play the next suggested video (is this in the api?)
-- Limited to videos on the CmacTV account
 
 ## Notes
 
