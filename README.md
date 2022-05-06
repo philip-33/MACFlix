@@ -19,17 +19,19 @@ https://cmac.tv/
 
 _Features_
 
-- suggest Netflix playlists in the same way netflix suggests genres
-- Search bar (limited to videos on the CmacTV account)
+- All features are limited to the CmacTV YouTube channel
+- Suggest Youtube playlists in the same way netflix suggests genres
+- Search bar that searches the channel
 - The red tones in the Netflix design are replaced with blue to match CMAC's color scheme
-- Thumbnail rows like netflix
 - Clicking on a thumbnail will bring up a hero banner of the video that loops the first 10 seconds, overlaid with:
-	- the description and ratio
-	- a play/close button
-	- a mute toggle button
-- start the video from the beginning if the play button or large thumbnail was clicked
+	- the description and likes
+	- play button
+	- close button
+	- mute toggle button
+- start the video from the beginning if the play button or large thumbnail is clicked
 - auto-queue the next video if the video was part of a playlist or...
 	- play the next suggested video (is this in the api?)
+- "Still watching?" prompt after 3 auto-play videos
 
 ## Notes
 
