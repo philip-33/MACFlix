@@ -11,7 +11,8 @@ https://cmac.tv/
 ## Usage
 
 1. Clone the repo
-2. Add your Youtube API key to [TODO: insert filename]
+2. Create a .env file in the project root and add your Youtube API key
+	- REACT_APP_YOUTUBE_API_KEY=[your API key]
 3. Access index.html in a browser or deploy to your website.
 
 ## Documentation
