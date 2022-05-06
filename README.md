@@ -28,8 +28,8 @@ _Features_
 	- play button
 	- close button
 	- mute toggle button
-- start the video from the beginning if the play button or large thumbnail is clicked
-- auto-queue the next video if the video was part of a playlist or...
+- Start the video from the beginning if the play button or large thumbnail is clicked
+- Auto-queue the next video if the video was part of a playlist or...
 	- play the next suggested video (is this in the api?)
 - "Still watching?" prompt after 3 auto-play videos
 
