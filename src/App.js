@@ -9,7 +9,7 @@ import { initializeApp } from "firebase/app";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyB6xiex8KLElA9sVM1aBE2UH7EYuAfgVDI",
+  apiKey: FIREBASE_API_KEY,
   authDomain: "macflix-fb832.firebaseapp.com",
   projectId: "macflix-fb832",
   storageBucket: "macflix-fb832.appspot.com",
@@ -24,19 +24,7 @@ const app = initializeApp(firebaseConfig);
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Front End Goes Here</h1>
     </div>
   );
 }
