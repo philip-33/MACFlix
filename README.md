@@ -1,10 +1,10 @@
-# MACFlix
+# yt-theater
 
 ## About
 
-This app is a clone of the Netflix frontend (Javascript and React), but consumes the Youtube API and exclusively displays the contents of the CMAC Youtube channel (CmacTv).
+This app is a clone of the Netflix frontend (Javascript and React), but consumes the Youtube API and exclusively displays the contents of a single YouTube channel
 
-The Community Media Access Collaborative (CMAC) is a membership-based, 501(c)(3) non-profit organization created to help citizens, schools, non-profits, public agencies and others better connect with our Fresno/Clovis (California) community through the use of media. 
+Before being generalized to be used with any YouTube channel, this program was originally intended to showcase the YT channel for the Fresno Community Media Access Collaborative (CMAC). CMAC is a membership-based, 501(c)(3) non-profit organization created to help citizens, schools, non-profits, public agencies and others better connect with our Fresno/Clovis (California) community through the use of media. 
 
 https://cmac.tv/
 
@@ -19,10 +19,9 @@ https://cmac.tv/
 
 _Features_
 
-- All features are limited to the CmacTV YouTube channel
-- Suggest Youtube playlists in the same way netflix suggests genres
-- Search bar that searches the channel
-- The red tones in the Netflix design are replaced with blue to match CMAC's color scheme
+- The following features will be limited to a single, configured YouTube channel
+- Suggest Youtube playlists from the channel in the same way netflix suggests genres
+- Search bar that only searches the channel
 - Clicking on a thumbnail will bring up a hero banner of the video that loops the first 10 seconds, overlaid with:
 	- the description and likes
 	- play button
@@ -30,8 +29,9 @@ _Features_
 	- mute toggle button
 - Start the video from the beginning if the play button or large thumbnail is clicked
 - Auto-queue the next video if the video was part of a playlist or...
-	- play the next suggested video (is this in the api?)
+	- play the next suggested video (is this in the api?) (confirm the suggested video is from the correct channel?)
 - "Still watching?" prompt after 3 auto-play videos
+- Additional features if logged in ?
 
 ## Notes
 
